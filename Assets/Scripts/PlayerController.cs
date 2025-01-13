@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     //Variables
     public float hoizontalInput;
-    public float speed = 10.0f;
+    public float speed = 20.0f;
     public float xRange = 20.0f;
     
     public GameObject projectilePrefab; //reference to the projectile prefab sandwhich
