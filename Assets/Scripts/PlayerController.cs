@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     //Variables
     public float hoizontalInput;
     public float speed = 10.0f;
-    public float xRange = 10.0f;
+    public float xRange = 20.0f;
     
     public GameObject projectilePrefab; //reference to the projectile prefab sandwhich
 
@@ -22,13 +22,13 @@ public class PlayerController : MonoBehaviour
     {
 
         //Left boundary
-        if (transform.position.x < -xRange) //if the position on the x value goes past -10 then reset the position to -10 so they cant go past this 
+        if (transform.position.x < -xRange) //if the position on the x value goes past -20 then reset the position to -10 so they cant go past this 
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
 
         //Right Boundary
-        if (transform.position.x > xRange) //if the position on the x value goes past 10 then reset the position to 10 so they cant go past this 
+        if (transform.position.x > xRange) //if the position on the x value goes past 20 then reset the position to 10 so they cant go past this 
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }

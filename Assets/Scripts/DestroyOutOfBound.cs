@@ -12,7 +12,7 @@ public class DestroyOutOfBound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,6 +27,7 @@ public class DestroyOutOfBound : MonoBehaviour
         //Lower Boundary destroy sandwhich
         else if (transform.position.z < lowerBound)
         {
+            Debug.Log("Game Over!");
             Destroy(gameObject);
         }
     }

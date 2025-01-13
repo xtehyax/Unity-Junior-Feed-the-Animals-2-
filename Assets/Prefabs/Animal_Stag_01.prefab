@@ -182,6 +182,8 @@ GameObject:
   - component: {fileID: 483900014334907683}
   - component: {fileID: 1713507794889690730}
   - component: {fileID: 564333833017273636}
+  - component: {fileID: 5181799295447294874}
+  - component: {fileID: 3783265974849545535}
   m_Layer: 0
   m_Name: Animal_Stag_01
   m_TagString: Untagged
@@ -198,7 +200,7 @@ Transform:
   m_GameObject: {fileID: 3300482324531432694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 14.780843, y: 0, z: 17.688221}
+  m_LocalPosition: {x: 14.09, y: 0, z: 17.688221}
   m_LocalScale: {x: 11, y: 11, z: 11}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -262,6 +264,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+--- !u!65 &5181799295447294874
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300482324531432694}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3208289, y: 0.44049823, z: 0.33808175}
+  m_Center: {x: -0.012424372, y: 0.23803051, z: 0.02094458}
+--- !u!114 &3783265974849545535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3300482324531432694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31057a498756e3c4fba5119196a71377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4277485063867087274
 GameObject:
   m_ObjectHideFlags: 0
